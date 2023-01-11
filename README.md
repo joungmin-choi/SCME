@@ -91,3 +91,11 @@ cat SRR901379_trimmed_bismark.CpG.4CG.cnv.txt | awk ‘$3>=10’ > SRR901379_tri
 ```
 
 * The final output file is of format with the header line shows the content for each column. Each line is the information for one 4CG segment. Importantly, the last column is the methylation pattern for the 4CG segment, including the counts for each pattern. For example, 0000:7;1110:2;1111:2 means there are three patterns (0000 means all 4 CpG are unmethylated, 1110 means CpG 1-3 are methylated and CpG4 unmethylated, 1111 means all 4 CpG are methylated), with the number of reads supporting each pattern are 7, 2 and 2, respectively.
+
+## R scripts for Simulation 1, 2, and Real data analysis in the manuscript
+* Simulation1.R
+* Simulation2.R 
+* RealDemonstration.R 
+
+## Contact
+If you have any questions or problems, please contact to joungmin AT vt.edu.
